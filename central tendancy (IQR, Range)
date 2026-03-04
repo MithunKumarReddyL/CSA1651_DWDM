@@ -1,0 +1,21 @@
+# Create a dataset
+data <- c(10, 20, 30, 40, 50, 60, 70)
+
+# IQR
+iqr_value <- IQR(data)
+print(paste("IQR =", iqr_value))
+
+# Range
+range_value <- range(data)
+print("Range =")
+print(range_value)
+
+# Quantile
+quantile_value <- quantile(data)
+print("Quantile =")
+print(quantile_value)
+
+# Summary
+summary_value <- summary(data)
+print("Summary =")
+print(summary_value)

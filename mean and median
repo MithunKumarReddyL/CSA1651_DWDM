@@ -1,0 +1,19 @@
+# Create a data set
+data <- c(10, 20, 30, 20, 40, 50, 20)
+
+# Mean
+mean_value <- mean(data)
+print(paste("Mean =", mean_value))
+
+# Median
+median_value <- median(data)
+print(paste("Median =", median_value))
+
+# Mode
+mode_value <- names(sort(table(data), decreasing = TRUE))[1]
+print(paste("Mode =", mode_value))
+
+# Data Frame
+df <- data.frame(Numbers = data)
+print("Data Frame:")
+print(df)
